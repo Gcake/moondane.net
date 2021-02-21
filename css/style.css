@@ -1100,7 +1100,7 @@ animation: animation-2nd .8s linear;
 .packages ul {
     list-style-type: circle; 
     align-self: flex-start; 
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 1.1rem;
 }
 
