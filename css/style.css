@@ -1678,3 +1678,32 @@ break {
     width: 100%;
     text-align: left;
   }
+
+  .work-services {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(33%, 1fr));
+    align-items: center;
+    text-align: left;
+    max-width: 80rem;
+    margin: 0 auto;
+    
+  }
+
+  .bind-empty {
+    display: none !important;
+  }
+
+  .pin {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+    margin-bottom: 0;
+    border-radius: 20px;
+    background-color: #000;
+  }
+
+  .align-right {
+    align-self: end;
+    justify-self: end;
+  }
