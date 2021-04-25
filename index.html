@@ -1,470 +1,654 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="">
-	<meta name="description" content="">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
 
-	<!-- Site title
+    <!-- Site title
    ================================================== -->
-	<title>Moondane Inc.</title>
+    <title>Moondane Inc.</title>
 
-	<!-- Bootstrap CSS
+    <!-- Bootstrap CSS
    ================================================== -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
-	<!-- Animate CSS
+    <!-- Animate CSS
    ================================================== -->
-	<link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
 
-	<!-- Font Icons CSS
+    <!-- Font Icons CSS
    ================================================== -->
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
 
-	<!-- Main CSS
+    <!-- Main CSS
    ================================================== -->
-	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
-	<!-- Google web font 
-   ================================================== -->	
-  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300,800' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Inter:400,700,300,800' rel='stylesheet' type='text/css'>
-	
+    <!-- Google web font 
+   ================================================== -->
+    <link href='https://fonts.googleapis.com/css?family=Inter:100,300, 400,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=EB+Garamond:400' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,200&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
+    <div class="global">
 
-
-<!-- Preloader section
+        <!-- Preloader section
 ================================================== -->
+        
 <div class="preloader">
 
-	<div class="sk-spinner sk-spinner-pulse"></div>
+<!--	<div class="sk-spinner sk-spinner-pulse"></div>-->
+    <div class="sk-spinner"></div>
 
 </div>
 
 
-<!-- Navigation section
+
+        <!-- Navigation section
 ================================================== -->
-<div class="nav-container" style="z-index: 5;">
-   <nav class="nav-inner transparent">
+        <div class="nav-container" style="z-index: 5;">
 
-      <div class="navbar">
-         <div class="container">
-            <div class="row">
+            <div class="navbar" id="navbar">
 
-              <div class="brand" style="z-index: 5;">
-                <a href="index.html" style="z-index: 5;">Moondane</a>
-              </div>
-
-              <div class="navicon" style="z-index: 5;">
-                <div class="menu-container" style="z-index: 5;">
-
-                  <div class="mobile-nav circle dark inline" style="z-index: 5;">
-                    <i class="icon ion-navicon" style="z-index: 5;"></i>
-                  </div>
-
-                  <div class="list-menu" style="z-index: 5;">
-                    <i class="icon ion-close-round close-iframe"></i>
-                    <div class="intro-inner">
-                      <ul id="nav-menu" style="z-index: 5; color: white;">
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                      </ul>
-                    </div>
-                  </div>
-			<ul class="nav navbar-nav navbar-right" style="z-index: 5;">
-				<li><a href="/about" class="smoothScroll">ABOUT</a></li>
-				<li><a href="/portfolio" class="smoothScroll">SERVICES</a></li>
-				<li><a href="/contact" class="smoothScroll">CONTACT</a></li>
-			</ul>
+                <div class="brand" style="z-index: 5;">
+                    <a href="index.html" style="z-index: 5;">Moondane</a>
                 </div>
-              </div>
 
-            </div>
-         </div>
-      </div>
+                <div class="nav icon" style="z-index: 5;">
+                    <div class="menu-container" style="z-index: 5;">
 
-   </nav>
-</div>
-
-
-<!-- Header section
-================================================== -->
-<!--
-<section id="header" class="header-one">
-	<div class="container">
-		<div class="row">
-
-			<div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
-          <div class="header-thumb">
-              <h1 class="wow fadeIn" data-wow-delay="1.6s">Lorem ipsum dolor</h1>
-              <h3 class="wow fadeInUp" data-wow-delay="1.9s">Six HTML pages included</h3>
-          </div>
-			</div>
-
-		</div>
-	</div>		
-</section>
--->
- <div style="position:absolute; top:0; left:0; height: 100vh; width: 100vw; overflow: hidden; z-index: -1;">  
- <video id="bgvid" style="position:absolute; top:0; left:0; min-height:100%; min-width:100%; z-index: -1;" autoplay loop muted>
-      <source src="images/video.mp4" type="video/mp4" style="z-index: -1;">
-  </video>
-  <div id="overlay" style="z-index: -1;"></div>
-     </div> 
-<div class="wrapperr">
-    
-<div class="rowr">
-
-<div class="main-copyr" style="color: white;">
-<h5>Web DESIGN AND E-COMMERCE SPECIALISTS</h5>
-    <h1 class="larger">Let us move <br/> your business online</h1>
-<h3 class="header-lightr" style="color: white;">Moondane is a group of enthusiasts specializing in the newest trends of e-commerce. We offer a wide range of professional services in the areas of web design and online marketing.</h3>
-<nav class="linksr">
-<h4><a href="#portfolio" class="scroll-to specialr">Contact Us</a></h4>
-<span style="line-height: 40px; text-align: center; margin: 0 20px;">or</span>
-<h4><a href="about" class="internal specialr">Read About Us</a></h4>
-</nav>
-</div>
-</div>
-<a href="#portfolio" class="scroll-to toggle animate specialr">
-<div class="scroll-to-icon"></div>
-</a>
-</div>
-    
-    
-<!--    services -->
-    <div class="container my-5" style="margin-top: 50px; padding: 80px 0 40px 0">
-    <div class="row">
-    
-    <div class="col-md-4 serx" style="">
-        <div class="py-4">
-          <span class="text-secondary text-uppercase" style="font-size: 2em;">Services</span>
-        <p class="text-secondary" style="line-height: 28px; border-top: 1px solid #000; margin-bottom: 5px;">Focus on your business idea and let us handle the rest</p>
-            <a class="pack-button" href="#" style="margin: 0 0 40px 0; display: inline-block;">READ MORE</a>
-        </div>
-    </div>
-    <div class="col-md-8">
-
-      <div class="row">
-          
-        <div class="col-md px-4 my-2 serx">
-          <div class="mt-3">
-              <div style="display: flex; align-items: center; padding-bottom: 0.5rem;">
-                  <ion-icon name="albums-outline" size="large"></ion-icon>
-                  <h5 class="mb-2" style="font-weight: 600; padding: 0px 1.5rem; font-size:14px;">Website design</h5>
-              </div>
-            
-            <p class="text-secondary">Portfolio websites, blogs, forums, online stores, online appointment booking pages, landings, and any special requests. We will create a website of your desire!</p>
-          </div>
-        </div>
-              
-        <div class="col-md px-4 my-2 serx">
-          <div class="mt-3">
-            <div style="display: flex; align-items: center; padding-bottom: 0.5rem;">
-                  <ion-icon name="cloud-done-outline" size="large"></ion-icon>
-                  <h5 class="mb-2" style="font-weight: 600; padding: 0px 1.5rem; font-size:14px;">Hosting services</h5>
-              </div>
-            <p class="text-secondary">We offer private cloud hosting services. Secure data storage and maintenance free-of-charge for our customers. Upkeep your website without any hassle.</p>
-          </div>
-        </div>
-              
-        <div class="col-md px-4 my-2 serx">
-          <div class="mt-3">
-            <div style="display: flex; align-items: center; padding-bottom: 0.5rem;">
-                  <ion-icon name="brush-outline" size="large"></ion-icon>
-                  <h5 class="mb-2" style="font-weight: 600; padding: 0px 1.5rem; font-size:14px;">Graphic Design</h5>
-              </div>
-            <p class="text-secondary">Logos, advertisements, posts, video editing, photo editing, and much more. Our graphic designers offer everything needed to cover the design of your web page and ads.</p>
-          </div>
-        </div>
-                  
-        <div class="col-md px-4 my-2 serx">
-          <div class="mt-3">
-            <div style="display: flex; align-items: center; padding-bottom: 0.5rem;">
-                  <ion-icon name="camera-outline" size="large"></ion-icon>
-                  <h5 class="mb-2" style="font-weight: 600; padding: 0px 1.5rem; font-size:14px;">Professional photography</h5>
-              </div>
-            <p class="text-secondary">We take professional photos and videos in our private photo studio. Photos of production, model photography, promotional videos, video reviews, and personal requests.</p>
-          </div>
-        </div>
-                      
-        <div class="col-md px-4 my-2 serx">
-          <div class="mt-3">
-            <div style="display: flex; align-items: center; padding-bottom: 0.5rem;">
-                  <ion-icon name="people-outline" size="large"></ion-icon>
-                  <h5 class="mb-2" style="font-weight: 600; padding: 0px 1.5rem; font-size:14px;">Consulting</h5>
-              </div>
-            <p class="text-secondary">Analysis, troubleshooting, and strategies for e-commerce businesses. We study individual cases and provide advice on improving the growth and performance, based on our own e-commerce experience.</p>
-          </div>
-        </div>
-                          
-        <div class="col-md px-4 my-2 serx">
-          <div class="mt-3">
-            <div style="display: flex; align-items: center; padding-bottom: 0.5rem;">
-                  <ion-icon name="hardware-chip-outline" size="large"></ion-icon>
-                  <h5 class="mb-2" style="font-weight: 600; padding: 0px 1.5rem; font-size:14px;">Automation AI</h5>
-              </div>
-            <p class="text-secondary">Automate your servicing and processes with AI. We can develop custom software to handle time-demanding tasks. Internet browser and mobile phone action automation, custom user interfaces, automated data analytics, and more.</p>
-          </div>
-        </div>
-                              
-      </div>
-    </div>
-  </div>
-</div>
-    
-<div class="container my-5" style="margin-top: 50px; padding: 80px 0 40px 0">
-  <div class="row">
-    
-    <div class="col-md-4 serx" style="">
-        <div class="py-4">
-          <span class="text-secondary text-uppercase" style="font-size: 2em;">Package Offers</span>
-        <p class="" style="line-height: 28px; border-top: 1px solid #000;">Not sure what you need or have not started yet? Not a problem!</p>
-            <p class="" style="line-height: 28px;">Provide us with your idea, and we will help you build your brand from scratch.</p>
-            <p class="text-secondary" style="line-height: 28px;">We offer a range of packages, suitable for different goals:</p>
-        </div>
-    </div>
-    <div class="col-md-8 packages-main" style="">
-        <div class="packages" style="">
-            <span class="text-uppercase" style="font-size: 2em; padding: 1rem 0;">BASIC</span>
-            <p style="padding: 0.5rem;">test test test test test test</p>
-            <ul style="">
-                <li>Single website design</li>
-                <li>Existing templates</li>
-                <li>Premade media</li>
-                <li>Hosting</li>
-                <li>Maintenance</li>
-            </ul>
-            <a class="pack-button" href="#" style="">CONTACT</a>
-        </div> 
-        <div class="packages" style="">
-            <span class="text-uppercase" style="font-size: 2em; padding: 1rem 0;">ADVANCED</span>
-            <p style="padding: 0.5rem;">test test test test test test</p>
-            <ul style="">
-                <li>Single website design</li>
-                <li>Custom designs</li>
-                <li>Hosting</li>
-                <li>Maintenance</li>
-                <li>Consultations</li>
-                <li>Additional requests</li>
-            </ul>
-            <a class="pack-button"  href="#" style="">CONTACT</a>
-        </div>
-
-        <div class="packages" style="">
-            <span class="text-uppercase" style="font-size: 2em; padding: 1rem 0;">PARTNERSHIP</span>
-            <p style="padding: 0.5rem;">test test test test test test</p>
-            <ul style="">
-                <li>All services</li>
-                <li>Custom designs</li>
-                <li>Initial setup</li>
-                <li>Further collaboration</li>
-                <li>Priority support</li>
-            </ul>
-            <a class="pack-button" href="#" style="">CONTACT</a>
-        </div>
-        <div class="packages" style="flex: 1 1 100%; margin-top: 2rem;">
-            <span class="text-uppercase" style="font-size: 2em; padding: 1rem 0;">CUSTOM</span>
-            <p style="padding: 0.5rem;">Your desired requests</p>
-            <a class="pack-button" href="#" style="display: inline-block;">CONTACT</a>
-        </div> 
-
-        </div>
-    </div>
-    
-</div>
-    
-<div class="container my-5" style="margin-top: 50px; padding: 80px 0 40px 0">
-  <div class="row">
-    
-    <div class="col-md-4 serx" style="">
-        <div class="py-4">
-          <span class="text-secondary text-uppercase" style="font-size: 2em;">Why Us?</span>
-        <p class="text-secondary" style="line-height: 28px; border-top: 1px solid #000;">TEST</p>
-        </div>
-    </div>
-      <div class="col-md-8">
-       <div class="row">
-      <div class="col-md px-4 my-2 serx">
-          <div class="mt-3">
-              <div style="display: flex; align-items: center; padding-bottom: 0.5rem;">
-                  <ion-icon name="pricetag-outline" size="large"></ion-icon>
-                  <h5 class="mb-2" style="font-weight: 600; padding: 0px 1.5rem; font-size:14px;">Flexible pricing</h5>
-              </div>
-            
-            <p class="text-secondary">No fixed prices. We provide services for both small businesses and large companies. Get a quote with the best individual break-down offer based on your requests. We constantly monitor the market and aim to offer lower prices for all of our services.</p>
-          </div>
-        </div>
-      
-      <div class="col-md px-4 my-2 serx">
-          <div class="mt-3">
-              <div style="display: flex; align-items: center; padding-bottom: 0.5rem;">
-                  <ion-icon name="infinite-outline" size="large"></ion-icon>
-                  <h5 class="mb-2" style="font-weight: 600; padding: 0px 1.5rem; font-size:14px">All-round servicing</h5>
-              </div>
-            
-            <p class="text-secondary">Our specialists can cover all of the steps to set up your online business while offering free consultations and advice. We will approach your case individually, and aim to fulfill any special requests.</p>
-          </div>
-        </div>
-      
-      <div class="col-md px-4 my-2 serx">
-          <div class="mt-3">
-              <div style="display: flex; align-items: center; padding-bottom: 0.5rem;">
-                  <ion-icon name="checkmark-outline" size="large"></ion-icon>
-                  <h5 class="mb-2" style="font-weight: 600; padding: 0px 1.5rem; font-size:14px;">Guarantee</h5>
-              </div>
-            
-            <p class="text-secondary">We will always keep you updated with the process, and resolve any additional issues before delivering the final product.</p>
-          </div>
-        </div>
-  </div>   
-          </div> 
-     </div> 
-</div>
-      
-
-
-<!-- Portfolio section
-================================================== -->
-<section id="portfolio">
-   <div class="container">
-      <div class="row">
-
-         <div class="col-md-12 col-sm-12">
-            
-               <!-- iso section -->
-               <div class="iso-section wow fadeInUp">
-<!--                   <div class="iso-section wow fadeInUp" data-wow-delay="0.5s">-->
-
-                  <ul class="filter-wrapper clearfix">
-                           <li><a href="#" data-filter="*" class="selected opc-main-bg">All</a></li>
-                           <li><a href="#" class="opc-main-bg" data-filter=".graphic">Graphic</a></li>
-                           <li><a href="#" class="opc-main-bg" data-filter=".template">Web template</a></li>
-                           <li><a href="#" class="opc-main-bg" data-filter=".photoshop">Photoshop</a></li>
-                        <li><a href="#" class="opc-main-bg" data-filter=".branding">Branding</a></li>
-                        </ul>
-
-                        <!-- iso box section -->
-                        <div class="iso-box-section wow fadeInUp" data-wow-delay="0s">
-                           <div class="iso-box-wrapper col4-iso-box">
-
-                              <div class="iso-box photoshop branding col-md-4 col-sm-6">
-                                 <div class="portfolio-thumb">
-                                    <img src="images/portfolio-img1.jpg" class="img-responsive" alt="Portfolio">
-                                       <div class="portfolio-overlay">
-                                          <div class="portfolio-item">
-                                                <a href="single-project.html"><i class="fa fa-link"></i></a>
-                                                <h2>Project One</h2>
-                                             </div>
-                                       </div>
-                                 </div>
-                              </div>
-
-                              <div class="iso-box graphic template col-md-4 col-sm-6">
-                                 <div class="portfolio-thumb">
-                                    <img src="images/portfolio-img2.jpg" class="img-responsive" alt="Portfolio">
-                                       <div class="portfolio-overlay">
-                                          <div class="portfolio-item">
-                                                <a href="single-project.html"><i class="fa fa-link"></i></a>
-                                                <h2>Project Two</h2>
-                                             </div>
-                                       </div>
-                                 </div>
-                              </div>
-
-                              <div class="iso-box template graphic col-md-4 col-sm-6">
-                                 <div class="portfolio-thumb">
-                                    <img src="images/portfolio-img3.jpg" class="img-responsive" alt="Portfolio">
-                                       <div class="portfolio-overlay">
-                                          <div class="portfolio-item">
-                                                <a href="single-project.html"><i class="fa fa-link"></i></a>
-                                                <h2>Project Three</h2>
-                                             </div>
-                                       </div>
-                                 </div>
-                              </div>
-
-                              <div class="iso-box graphic template col-md-4 col-sm-6">
-                                 <div class="portfolio-thumb">
-                                    <img src="images/portfolio-img4.jpg" class="img-responsive" alt="Portfolio">
-                                       <div class="portfolio-overlay">
-                                          <div class="portfolio-item">
-                                                <a href="single-project.html"><i class="fa fa-link"></i></a>
-                                                <h2>Project Four</h2>
-                                             </div>
-                                       </div>
-                                 </div>
-                              </div>
-
-                              <div class="iso-box photoshop branding col-md-4 col-sm-6">
-                                 <div class="portfolio-thumb">
-                                    <img src="images/portfolio-img5.jpg" class="img-responsive" alt="Portfolio">
-                                       <div class="portfolio-overlay">
-                                          <div class="portfolio-item">
-                                                <a href="single-project.html"><i class="fa fa-link"></i></a>
-                                                <h2>Project Five</h2>
-                                             </div>
-                                       </div>
-                                 </div>
-                              </div>
-
-                              <div class="iso-box graphic branding col-md-4 col-sm-6">
-                                 <div class="portfolio-thumb">
-                                    <img src="images/portfolio-img6.jpg" class="img-responsive" alt="Portfolio">
-                                       <div class="portfolio-overlay">
-                                          <div class="portfolio-item">
-                                                <a href="single-project.html"><i class="fa fa-link"></i></a>
-                                                <h2>Project Six</h2>
-                                             </div>
-                                       </div>
-                                 </div>
-                              </div>
-
-                            </div>
+                        <div class="mobile-nav circle dark inline" style="z-index: 5;">
+                            <i class="icon ion-navicon bb" style="z-index: 5;" onclick="myFunction2()"></i>
                         </div>
 
-               </div>
+<!--
+                        <div class="list-menu" style="z-index: 5;">
+                            <i class="icon ion-close-round close-iframe"></i>
+                            <div class="intro-inner">
+                                <ul id="nav-menu" style="z-index: 5; color: white;">
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+-->
+                        
+<!--                        <div id="fixedbutton"><a class="pack-button" href="#" style="width:100vw; margin: 0; font-size: 2rem; padding: 1.1rem 0;">CONTACT US</a></div>-->
+                        <ul class="nav navbar-nav navbar-right" style="z-index: 5;">
+                            <li><a href="/about" class="smoothScroll bb">ABOUT</a></li>
+                            <li><a href="/portfolio" class="smoothScroll bb">SERVICES</a></li>
+                            <li><a href="/contact" class="smoothScroll bb">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="topnav" id="myTopnav">
+  <a href="#home" class="active">ABOUT</a>
+  <a href="#news">SERVICES</a>
+  <a href="#contact">CONTACT</a>
+<!--
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+-->
+<!--  <a href="javascript:void(0);" style="font-size:15px;" class="icon" >&#9776;</a>-->
+</div>
 
-         </div>
+            </div>
 
-      </div>
-   </div>
-</section>
+        </div>
+        
+        
 
-<!-- Footer section
+
+        <div class="main-copyr" style="">
+            <p>Web design and <br/> e-commerce specialists <p> 
+            <p class="m2" style="margin-top: 3rem; line-height: 3rem">Let us move your business online</p>
+        </div>
+
+        <div class="main-copyr" style="padding: 5rem 3rem; border-top: 1px solid black;">
+            <div><p class="header-lightr" style="">Moondane is a group of enthusiasts specializing in the newest trends of e-commerce. We offer a wide range of professional services in the areas of web design and online marketing.</p></div>
+        </div>
+        
+ <div class="main-copyr imger" style="border-bottom: none; border-top: 1px solid black;">
+            <div><img src="https://picsum.photos/1920/1080" alt="">
+            </div>
+        </div>
+
+        <!--    services -->
+        <div class="services" style="">
+
+            <div class="colser" style="cursor: pointer; border-bottom: 1px solid black">
+                <div class='slider'>
+                    <div class="edge"></div>
+                    <ul class="slideContainer1" id="money_start">
+                        <li class="slideItem1">
+                            SERVICES
+                        </li>
+                        <li class="slideItem1">
+                            SERVICES
+                        </li>
+                        <li class="slideItem1">
+                            SERVICES
+                        </li>
+                        <li class="slideItem1">
+                            SERVICES
+                        </li>
+                        <li class="slideItem1">
+                            SERVICES
+                        </li>
+                        <li class="slideItem1">
+                            SERVICES
+                        </li>
+                        <li class="slideItem1">
+                            SERVICES
+                        </li>
+                        <li class="slideItem1">
+                            SERVICES
+                        </li>
+                        <li class="slideItem1">
+                            SERVICES
+                        </li>
+                        <li class="slideItem1">
+                            SERVICES
+                        </li>
+                    </ul>
+                </div>
+<!--                <p style="text-align: center; padding-top: 2rem;">Focus on your business idea and let us handle the rest</p>-->
+            </div>
+            <div class="colser" style="padding: 0;">
+
+                    <div class="serx">
+                        <div class="mt-3">
+                            <div style="display: flex; align-items: center; padding-bottom: 0.5rem;">
+                                <ion-icon name="albums-outline" size="large"></ion-icon>
+                                <h5 class="mb-2" style="font-weight: 600; padding: 0px 1.5rem; font-size:14px;">Website design</h5>
+                            </div>
+
+                            <p class="text-secondary">Portfolio websites, blogs, forums, online stores, online appointment booking pages, landings, and any special requests. We will create a website of your desire!</p>
+                        </div>
+                    </div>
+
+                    <div class="serx">
+                        <div class="mt-3">
+                            <div style="display: flex; align-items: center; padding-bottom: 0.5rem;">
+                                <ion-icon name="cloud-done-outline" size="large"></ion-icon>
+                                <h5 class="mb-2" style="font-weight: 600; padding: 0px 1.5rem; font-size:14px;">Hosting services</h5>
+                            </div>
+                            <p class="text-secondary">We offer private cloud hosting services. Secure data storage and maintenance free-of-charge for our customers. Upkeep your website without any hassle.</p>
+                        </div>
+                    </div>
+
+                    <div class="serx">
+                        <div class="mt-3">
+                            <div style="display: flex; align-items: center; padding-bottom: 0.5rem;">
+                                <ion-icon name="brush-outline" size="large"></ion-icon>
+                                <h5 class="mb-2" style="font-weight: 600; padding: 0px 1.5rem; font-size:14px;">Graphic Design</h5>
+                            </div>
+                            <p class="text-secondary">Logos, advertisements, posts, video editing, photo editing, and much more. Our graphic designers offer everything needed to cover the design of your web page and ads.</p>
+                        </div>
+                    </div>
+
+                    <div class="serx">
+                        <div class="mt-3">
+                            <div style="display: flex; align-items: center; padding-bottom: 0.5rem;">
+                                <ion-icon name="camera-outline" size="large"></ion-icon>
+                                <h5 class="mb-2" style="font-weight: 600; padding: 0px 1.5rem; font-size:14px;">Professional photography</h5>
+                            </div>
+                            <p class="text-secondary">We take professional photos and videos in our private photo studio. Photos of production, model photography, promotional videos, video reviews, and personal requests.</p>
+                        </div>
+                    </div>
+
+                    <div class="serx">
+                        <div class="mt-3">
+                            <div style="display: flex; align-items: center; padding-bottom: 0.5rem;">
+                                <ion-icon name="people-outline" size="large"></ion-icon>
+                                <h5 class="mb-2" style="font-weight: 600; padding: 0px 1.5rem; font-size:14px;">Consulting</h5>
+                            </div>
+                            <p class="text-secondary">Analysis, troubleshooting, and strategies for e-commerce businesses. We study individual cases and provide advice on improving the growth and performance, based on our own e-commerce experience.</p>
+                        </div>
+                    </div>
+
+                    <div class="serx">
+                        <div class="mt-3">
+                            <div style="display: flex; align-items: center; padding-bottom: 0.5rem;">
+                                <ion-icon name="hardware-chip-outline" size="large"></ion-icon>
+                                <h5 class="mb-2" style="font-weight: 600; padding: 0px 1.5rem; font-size:14px;">Automation AI</h5>
+                            </div>
+                            <p class="text-secondary">Automate your servicing and processes with AI. We can develop custom software to handle time-demanding tasks. Internet browser and mobile phone action automation, custom user interfaces, automated data analytics, and more.</p>
+                        </div>
+                    </div>
+                
+<!--
+                <div class="serx" style="padding: 5rem 3rem">
+                        <div class="mt-3" style="max-width: 65rem;
+    margin: auto;">
+                            <div style="display: flex; align-items: center; padding-bottom: 0.5rem;">
+                                <ion-icon name="pricetag-outline" size="large"></ion-icon>
+                                <h5 class="mb-2" style="font-weight: 600; padding: 0px 1.5rem; font-size:14px;">gg</h5>
+                            </div>
+
+                            <p class="text-secondary" style="">Not sure what you need or have not started yet? Not a problem!
+
+Provide us with your idea, and we will help you build your brand from scratch.
+
+We offer a range of packages, suitable for different goals:</p>
+                        </div>
+                    </div>
+-->
+
+                
+            </div>
+        </div>
+        
+<!--        ----------------------------------------------------------------->
+        
+<!--
+        <div class="whyus services" style="border-top:none;">
+
+            <div class="colser" style="cursor: pointer; border-bottom: 1px solid black">
+                <div class='slider'>
+                    <div class="edge"></div>
+                    <ul class="slideContainer2" id="money_start">
+                        <li class="slideItem2">
+                            PACKAGE OFFERS
+                        </li>
+                        <li class="slideItem2">
+                            PACKAGE OFFERS
+                        </li>
+                        <li class="slideItem2">
+                            PACKAGE OFFERS
+                        </li>
+                        <li class="slideItem2">
+                            PACKAGE OFFERS
+                        </li>
+                        <li class="slideItem2">
+                            PACKAGE OFFERS
+                        </li>
+                        <li class="slideItem2">
+                            PACKAGE OFFERS
+                        </li>
+                        <li class="slideItem2">
+                            PACKAGE OFFERS
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="main-copyr" style="padding: 5rem 3rem; border-bottom: 1px solid black;">
+            <p class="header-lightr" style="">Not sure what you need or have not started yet? Not a problem!
+
+Provide us with your idea, and we will help you build your brand from scratch.
+
+We offer a range of packages, suitable for different goals:</p>
+        </div>
+            <div class="colser" style="padding: 0;">
+                    <div class="serx serx4" style="justify-content: center">
+                        <div class="mt-2">
+                            <p class="text-uppercase" style="font-size: 2em; padding: 0 0 1rem 0; color: black;">BASIC</p>
+                        <p style="font-size: 16px;">
+                            Simple website design<br/>
+                            Existing templates<br/>
+                            Premade media<br/>
+                            Hosting & Maintenance
+                        </p>
+
+                    </div>
+                    </div>
+
+                    <div class="serx serx4" style="justify-content: center">
+                        <div class="mt-2">
+                            <p class="text-uppercase" style="font-size: 2em; padding: 0 0 1rem 0; color: black;">ADVANCED</p>
+                        <p style="font-size: 16px;">
+Custom website designs<br/>
+                            Content optimization<br/>
+Hosting & Maintenance<br/>
+Consultations<br/>
+Additional requests
+                        </p>
+
+                    </div>
+                    </div>
+
+                    <div class="serx serx4" style="justify-content: center">
+                        <div class="mt-2">
+                            <p class="text-uppercase" style="font-size: 2em; padding: 0 0 1rem 0; color: black;">PARTNERSHIP</p>
+                        <p style="font-size: 16px;">
+                            All services on request<br/>
+Fully custom designs<br/>
+Initial setup<br/>
+Further collaboration<br/>
+Priority support
+                        </p>
+
+                    </div>
+                    </div>
+                
+                <div class="serx serx4" style="justify-content: center">
+                        <div class="mt-2">
+                            <p class="text-uppercase" style="font-size: 2em; padding: 0 0 1rem 0; color: black;">CUSTOM</p>
+                        <p style="font-size: 16px;">
+                            Your desired requests
+                        </p>
+
+                    </div>
+                    </div>
+
+                    </div>
+
+                
+            </div>
+-->
+        
+        <!--        ----------------------------------------------------------------->
+
+        
+        <div class="main-copyr imger">
+            <div><img src="https://picsum.photos/1920/1080" alt="">
+            </div>
+        </div>
+        
+        
+        <div class="whyus services" style="border-top:none;">
+
+            <div class="colser" style="cursor: pointer; border-bottom: 1px solid black">
+                <div class='slider'>
+                    <div class="edge"></div>
+                    <ul class="slideContainer3" id="money_start">
+                        <li class="slideItem3">
+                            WHY US?
+                        </li>
+                        <li class="slideItem3">
+                            WHY US?
+                        </li>
+                        <li class="slideItem3">
+                            WHY US?
+                        </li>
+                        <li class="slideItem3">
+                            WHY US?
+                        </li>
+                        <li class="slideItem3">
+                            WHY US?
+                        </li>
+                        <li class="slideItem3">
+                            WHY US?
+                        </li>
+                        <li class="slideItem3">
+                            WHY US?
+                        </li>
+                        <li class="slideItem3">
+                            WHY US?
+                        </li>
+                        <li class="slideItem3">
+                            WHY US?
+                        </li>
+                        <li class="slideItem3">
+                            WHY US?
+                        </li>
+                    </ul>
+                </div>
+<!--                <p style="text-align: center; padding-top: 2rem;">Focus on your business idea and let us handle the rest</p>-->
+            </div>
+            <div class="colser" style="padding: 0;">
+                    <div class="serx">
+                        <div class="mt-3">
+                            <div style="display: flex; align-items: center; padding-bottom: 0.5rem;">
+                                <ion-icon name="pricetag-outline" size="large"></ion-icon>
+                                <h5 class="mb-2" style="font-weight: 600; padding: 0px 1.5rem; font-size:14px;">Flexible pricing</h5>
+                            </div>
+
+                            <p class="text-secondary">No fixed prices. We provide services for both small businesses and large companies. Get a quote with the best individual break-down offer based on your requests. We constantly monitor the market and aim to offer lower prices for all of our services.</p>
+                        </div>
+                    </div>
+
+                    <div class="serx">
+                        <div class="mt-3">
+                            <div style="display: flex; align-items: center; padding-bottom: 0.5rem;">
+                                <ion-icon name="infinite-outline" size="large"></ion-icon>
+                                <h5 class="mb-2" style="font-weight: 600; padding: 0px 1.5rem; font-size:14px;">All-round servicing</h5>
+                            </div>
+                            <p class="text-secondary">Our specialists can cover all of the steps to set up your online business while offering free consultations and advice. We will approach your case individually, and aim to fulfill any special requests.</p>
+                        </div>
+                    </div>
+
+                    <div class="serx">
+                        <div class="mt-3">
+                            <div style="display: flex; align-items: center; padding-bottom: 0.5rem;">
+                                <ion-icon name="checkmark-outline" size="large"></ion-icon>
+                                <h5 class="mb-2" style="font-weight: 600; padding: 0px 1.5rem; font-size:14px;">Guarantee</h5>
+                            </div>
+                            <p class="text-secondary">We will always keep you updated with the process, and resolve any additional issues before delivering the final product.</p>
+                        </div>
+                    </div>
+
+                    </div>
+
+                
+            </div>
+
+            <div class="colser" style="cursor: pointer; border-bottom: 1px solid black">
+                <div class='slider'>
+                    <div class="edge"></div>
+                    <ul class="slideContainer4" id="money_start">
+                        <li class="slideItem4">
+                            OUR WORK
+                        </li>
+                        <li class="slideItem4">
+                            OUR WORK
+                        </li>
+                        <li class="slideItem4">
+                            OUR WORK
+                        </li>
+                        <li class="slideItem4">
+                            OUR WORK
+                        </li>
+                        <li class="slideItem4">
+                            OUR WORK
+                        </li>
+                        <li class="slideItem4">
+                            OUR WORK
+                        </li>
+                        <li class="slideItem4">
+                            OUR WORK
+                        </li>
+                        <li class="slideItem4">
+                            OUR WORK
+                        </li>
+                        <li class="slideItem4">
+                            OUR WORK
+                        </li>
+                        <li class="slideItem4">
+                            OUR WORK
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        <!-- Portfolio section
 ================================================== -->
-<footer>
-	<div class="container">
-		<div class="row">
+        <section id="portfolio">
+            
+            <div class="container" style="width:100%; padding: 0rem;">
+                <div class="row">
 
-			<div class="col-md-12 col-sm-12">
-				<p class="wow fadeInUp"  data-wow-delay="0s">Copyright © 2020 Moondane Inc.</p>
-				<ul class="social-icon wow fadeInUp"  data-wow-delay="0.1s">
-					<li><a href="#" class="fa fa-facebook"></a></li>
-					<li><a href="#" class="fa fa-twitter"></a></li>
-					<li><a href="#" class="fa fa-google-plus"></a></li>
-				</ul>
-			</div>
-			
-		</div>
-	</div>
-</footer>
+                    <div class="col-md-12 col-sm-12">
 
+                        <!-- iso section -->
+                        <div class="iso-section wow fadeInUp">
+                            <!--                   <div class="iso-section wow fadeInUp" data-wow-delay="0.5s">-->
 
-<!-- Javascript 
+                            <ul class="filter-wrapper clearfix">
+                                <li><a href="#" data-filter="*" class="selected opc-main-bg">All</a></li>
+                                <li><a href="#" class="opc-main-bg" data-filter=".graphic">Graphic</a></li>
+                                <li><a href="#" class="opc-main-bg" data-filter=".template">Web template</a></li>
+                                <li><a href="#" class="opc-main-bg" data-filter=".photoshop">Photoshop</a></li>
+                                <li><a href="#" class="opc-main-bg" data-filter=".branding">Branding</a></li>
+                            </ul>
+
+                            <!-- iso box section -->
+                            <div class="iso-box-section wow fadeInUp" data-wow-delay="0s">
+                                <div class="iso-box-wrapper col4-iso-box">
+
+                                    <div class="iso-box photoshop branding col-md-4 col-sm-6">
+                                        <div class="portfolio-thumb">
+                                            <a href="single-project.html"><img src="images/portfolio-img1.jpg" class="img-responsive" alt="Portfolio"></a>
+                                            
+                                        </div>
+                                    </div>
+
+                                    <div class="iso-box photoshop branding col-md-4 col-sm-6">
+                                        <div class="portfolio-thumb">
+                                            <a href="single-project.html"><img src="images/portfolio-img1.jpg" class="img-responsive" alt="Portfolio"></a>
+                                            
+                                        </div>
+                                    </div>
+
+                                    <div class="iso-box photoshop branding col-md-4 col-sm-6">
+                                        <div class="portfolio-thumb">
+                                            <a href="single-project.html"><img src="images/portfolio-img1.jpg" class="img-responsive" alt="Portfolio"></a>
+                                            
+                                        </div>
+                                    </div>
+
+                                    <div class="iso-box photoshop branding col-md-4 col-sm-6">
+                                        <div class="portfolio-thumb">
+                                            <a href="single-project.html"><img src="images/portfolio-img1.jpg" class="img-responsive" alt="Portfolio"></a>
+                                            
+                                        </div>
+                                    </div>
+
+                                   
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer section
 ================================================== -->
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/isotope.js"></script>
-<script src="js/imagesloaded.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/custom.js"></script>
-<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+        <footer>
+
+
+            <p class="wow fadeInUp" data-wow-delay="0s" style="">2020 Moondane</p>
+            <ul class="social-icon wow fadeInUp" data-wow-delay="0.1s" style="">
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-twitter"></a></li>
+                <li><a href="#" class="fa fa-google-plus"></a></li>
+            </ul>
+        </footer>
+
+    </div>
+
+    <!-- Javascript 
+================================================== -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/imagesloaded.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script>
+        window.requestAnimationFrame = (function() {
+            return window.requestAnimationFrame ||
+                window.webkitRequestAnimationFrame ||
+                window.mozRequestAnimationFrame ||
+                function(callback) {
+                    window.setTimeout(callback, 1000 / 60);
+                };
+        })();
+
+        var speed = 10000;
+        (function currencySlide() {
+            var currencyPairWidth1 = $('.slideItem1:first-child').outerWidth();
+            var currencyPairWidth2 = $('.slideItem2:first-child').outerWidth();
+            var currencyPairWidth3 = $('.slideItem3:first-child').outerWidth();
+            var currencyPairWidth4 = $('.slideItem4:first-child').outerWidth();
+            $(".slideContainer1").animate({
+                marginLeft: -currencyPairWidth1
+            }, speed, 'linear', function() {
+                $(this).css({
+                    marginLeft: 6
+                }).find("li:last").after($(this).find("li:first"));
+            });
+            
+            $(".slideContainer2").animate({
+                marginLeft: -currencyPairWidth2
+            }, speed, 'linear', function() {
+                $(this).css({
+                    marginLeft: 6
+                }).find("li:last").after($(this).find("li:first"));
+            });
+            
+            $(".slideContainer3").animate({
+                marginLeft: -currencyPairWidth3
+            }, speed, 'linear', function() {
+                $(this).css({
+                    marginLeft: 6
+                }).find("li:last").after($(this).find("li:first"));
+            });
+
+            $(".slideContainer4").animate({
+                marginLeft: -currencyPairWidth4
+            }, speed, 'linear', function() {
+                $(this).css({
+                    marginLeft: 6
+                }).find("li:last").after($(this).find("li:first"));
+            });
+            requestAnimationFrame(currencySlide);
+        })();
+
+    </script>
+    <script>
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        var header = document.getElementById("navbar");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+
+    </script>
     
+    <script>
+function myFunction2() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
 </body>
+
 </html>

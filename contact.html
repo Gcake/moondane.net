@@ -1,201 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="">
-	<meta name="description" content="">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
 
-	<!-- Site title
+    <!-- Site title
    ================================================== -->
-	<title>Moondane Inc.</title>
+    <title>Moondane Inc.</title>
 
-	<!-- Bootstrap CSS
+    <!-- Bootstrap CSS
    ================================================== -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
-	<!-- Animate CSS
+    <!-- Animate CSS
    ================================================== -->
-	<link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
 
-	<!-- Font Icons CSS
+    <!-- Font Icons CSS
    ================================================== -->
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
 
-	<!-- Main CSS
+    <!-- Main CSS
    ================================================== -->
-	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
-	<!-- Google web font 
-   ================================================== -->	
-  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300,800' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Inter:400,700,300,800' rel='stylesheet' type='text/css'>
-	
+    <!-- Google web font 
+   ================================================== -->
+    <link href='https://fonts.googleapis.com/css?family=Inter:100,300, 400,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=EB+Garamond:400' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,200&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
+    <div class="global">
 
-
-<!-- Preloader section
+        <!-- Preloader section
 ================================================== -->
+        
 <div class="preloader">
 
-	<div class="sk-spinner sk-spinner-pulse"></div>
+<!--	<div class="sk-spinner sk-spinner-pulse"></div>-->
+    <div class="sk-spinner"></div>
 
 </div>
 
 
-<!-- Navigation section
+
+        <!-- Navigation section
 ================================================== -->
-<div class="nav-container" style="z-index: 5; background-color: #333;">
-   <nav class="nav-inner transparent">
+        <div class="nav-container" style="z-index: 5;">
 
-      <div class="navbar">
-         <div class="container">
-            <div class="row">
+            <div class="navbar" id="navbar">
 
-              <div class="brand" style="z-index: 5;">
-                <a href="index.html" style="z-index: 5;">Moondane Inc.</a>
-              </div>
-
-              <div class="navicon" style="z-index: 5;">
-                <div class="menu-container" style="z-index: 5;">
-
-                  <div class="mobile-nav circle dark inline" style="z-index: 5;">
-                    <i class="icon ion-navicon" style="z-index: 5;"></i>
-                  </div>
-
-                  <div class="list-menu" style="z-index: 5;">
-                    <i class="icon ion-close-round close-iframe"></i>
-                    <div class="intro-inner">
-                      <ul id="nav-menu" style="z-index: 5; color: white;">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                      </ul>
-                    </div>
-                  </div>
-			<ul class="nav navbar-nav navbar-right" style="z-index: 5;">
-				<li><a href="#home" class="smoothScroll">HOME</a></li>
-				<li><a href="#about" class="smoothScroll">ABOUT</a></li>
-				<li><a href="#portfolio" class="smoothScroll">SERVICES</a></li>
-				<li><a href="#contact" class="smoothScroll">CONTACT</a></li>
-			</ul>
+                <div class="brand" style="z-index: 5;">
+                    <a href="index.html" style="z-index: 5;">Moondane</a>
                 </div>
-              </div>
+
+                <div class="nav icon" style="z-index: 5;">
+                    <div class="menu-container" style="z-index: 5;">
+
+                        <div class="mobile-nav circle dark inline" style="z-index: 5;">
+                            <i class="icon ion-navicon bb" style="z-index: 5;" onclick="myFunction2()"></i>
+                        </div>
+
+<!--
+                        <div class="list-menu" style="z-index: 5;">
+                            <i class="icon ion-close-round close-iframe"></i>
+                            <div class="intro-inner">
+                                <ul id="nav-menu" style="z-index: 5; color: white;">
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+-->
+                        
+<!--                        <div id="fixedbutton"><a class="pack-button" href="#" style="width:100vw; margin: 0; font-size: 2rem; padding: 1.1rem 0;">CONTACT US</a></div>-->
+                        <ul class="nav navbar-nav navbar-right" style="z-index: 5;">
+                            <li><a href="/about" class="smoothScroll bb">ABOUT</a></li>
+                            <li><a href="/portfolio" class="smoothScroll bb" style="border-right:1px solid black;">SERVICES</a></li>
+                            <li><a href="/contact" class="smoothScroll" style="border-left:none !important;">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="topnav" id="myTopnav">
+  <a href="#home" class="active">ABOUT</a>
+  <a href="#news">SERVICES</a>
+  <a href="#contact">CONTACT</a>
+<!--
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+-->
+<!--  <a href="javascript:void(0);" style="font-size:15px;" class="icon" >&#9776;</a>-->
+</div>
 
             </div>
-         </div>
-      </div>
 
-   </nav>
-</div>
+        </div>
+        
+        
 
-<!-- Header section
+
+        <div class="main-copyr" id="contact" style="">
+            <p>Let's work together!</p>
+                     <div class="contact-form">
+                         <form id="contact-form" method="post" action="#">
+                             <div class="condouble" style=""><p class="text-secondary" style="color: #777;font-size: 16px !important;line-height: 28px;word-spacing: 1px;letter-spacing: 1px;margin: 0;font-style: normal;text-align: left;">Full name</p>
+                                <input name="name" type="text" class="form-control" placeholder="" required></div>
+                            <div class="condouble" style=""><p class="text-secondary" style="color: #777;font-size: 16px !important;line-height: 28px;word-spacing: 1px;letter-spacing: 1px;margin: 0;font-style: normal;text-align: left;">Your email</p>
+                                <input name="email" type="email" class="form-control" placeholder="" required></div>
+                             
+                             <p class="text-secondary" style="color: #777;font-size: 16px !important;line-height: 28px;word-spacing: 1px;letter-spacing: 1px;margin: 0;font-style: normal;text-align: left;">Message</p>
+                             <textarea name="message" class="form-control" placeholder="" rows="4" required></textarea>
+                             <div class="contact-submit">
+                                 <input type="submit" class="form-control submit" value="Send a message">
+                             </div>
+                         </form>
+                     </div>
+        </div>
+
+             
+                     <div class="colser" style="padding: 0; border-top: 1px solid black;">
+                        <div class="serx">
+                            <div class="mt-3">
+                                <div style="display: flex; align-items: center; padding-bottom: 0.5rem;">
+                                    <ion-icon name="call-outline" size="large"></ion-icon>
+                                    <h5 class="mb-2" style="font-weight: 400; padding: 0px 1.5rem; font-size:14px;">+370 612345</h5>
+                                </div>
+    
+
+                            </div>
+                        </div>
+    
+                        <div class="serx">
+                            <div class="mt-3">
+                                <div style="display: flex; align-items: center; padding-bottom: 0.5rem;">
+                                    <ion-icon name="mail-outline" size="large"></ion-icon>
+                                    <h5 class="mb-2" style="font-weight: 400; padding: 0px 1.5rem; font-size:14px;">moondane@moondane.net</h5>
+                                </div>
+
+                            </div>
+                        </div>
+    
+                        <div class="serx">
+                            <div class="mt-3">
+                                <div style="display: flex; align-items: center; padding-bottom: 0.5rem;">
+                                    <ion-icon name="location-outline" size="large"></ion-icon>
+                                    <h5 class="mb-2" style="font-weight: 400; padding: 0px 1.5rem; font-size:14px;">Vilnius</h5>
+                                </div>
+
+                            </div>
+                        </div>
+    
+                        </div>
+
+        <!-- Footer section
 ================================================== -->
+        <footer style="border-top: none;">
 
 
+            <p class="wow fadeInUp" data-wow-delay="0s" style="">2020 Moondane</p>
+            <ul class="social-icon wow fadeInUp" data-wow-delay="0.1s" style="">
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-twitter"></a></li>
+                <li><a href="#" class="fa fa-google-plus"></a></li>
+            </ul>
+        </footer>
 
-<div class="text-center" style="padding-top:50px">
-        <div class="header-thumb">
-            <h1 class="wow fadeIn" >Contact Us</h1>
-            <h3 class="wow fadeInUp">Vestibulum at aliquam lorem</h3>
-           	</div>
-</div>
+    </div>
 
-
-
-<!-- Contact section
+    <!-- Javascript 
 ================================================== -->
-<section id="contact">
-   <div class="container">
-      <div class="row">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/imagesloaded.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script>
+        window.requestAnimationFrame = (function() {
+            return window.requestAnimationFrame ||
+                window.webkitRequestAnimationFrame ||
+                window.mozRequestAnimationFrame ||
+                function(callback) {
+                    window.setTimeout(callback, 1000 / 60);
+                };
+        })();
 
+        var speed = 10000;
+        (function currencySlide() {
+            var currencyPairWidth1 = $('.slideItem1:first-child').outerWidth();
+            var currencyPairWidth2 = $('.slideItem2:first-child').outerWidth();
+            var currencyPairWidth3 = $('.slideItem3:first-child').outerWidth();
+            $(".slideContainer1").animate({
+                marginLeft: -currencyPairWidth1
+            }, speed, 'linear', function() {
+                $(this).css({
+                    marginLeft: 6
+                }).find("li:last").after($(this).find("li:first"));
+            });
+            
+            $(".slideContainer2").animate({
+                marginLeft: -currencyPairWidth2
+            }, speed, 'linear', function() {
+                $(this).css({
+                    marginLeft: 6
+                }).find("li:last").after($(this).find("li:first"));
+            });
+            
+            $(".slideContainer3").animate({
+                marginLeft: -currencyPairWidth3
+            }, speed, 'linear', function() {
+                $(this).css({
+                    marginLeft: 6
+                }).find("li:last").after($(this).find("li:first"));
+            });
+            requestAnimationFrame(currencySlide);
+        })();
 
-		<div class="wow fadeInUp text-center" data-wow-delay="1.6s">
-			<h1>Let's work together!</h1>
-			<div class="contact-form">
-				<form id="contact-form" method="post" action="#">
-					<input name="name" type="text" class="form-control" placeholder="Your Name" required>
-					<input name="email" type="email" class="form-control" placeholder="Your Email" required>
-					<textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea>
-					<div class="contact-submit">
-						<input type="submit" class="form-control submit" value="Send a message">
-					</div>
-				</form>
-			</div>
-		</div>
+    </script>
+    <script>
+        window.onscroll = function() {
+            myFunction()
+        };
 
-		<div class="clearfix"></div>
+        var header = document.getElementById("navbar");
+        var sticky = header.offsetTop;
 
-			<div class="col-md-4 col-sm-4">
-				<div class="wow fadeInUp media" data-wow-delay="0s">
-					<div class="media-object pull-left">
-						<i class="fa fa-tablet"></i>
-					</div>
-					<div class="media-body">
-						<h3 class="media-heading">Phone</h3>
-						<p>+99 00 8877 6655</p>
-					</div>
-				</div>
-			</div>
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
 
-			<div class="col-md-4 col-sm-4">
-				<div class="wow fadeInUp media" data-wow-delay="0s">
-					<div class="media-object pull-left">
-						<i class="fa fa-envelope"></i>
-					</div>
-					<div class="media-body">
-						<h3 class="media-heading">Email</h3>
-						<p>hello@company.com</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-4 col-sm-4">
-				<div class="wow fadeInUp media" data-wow-delay="0s">
-					<div class="media-object pull-left">
-						<i class="fa fa-globe"></i>
-					</div>
-					<div class="media-body">
-						<h3 class="media-heading">Address</h3>
-						<p>Vilnius</p>
-					</div>
-				</div>
-			</div>
-
-      </div>
-   </div>
-</section>
-
-
-<!-- Footer section
-================================================== -->
-<footer style="margin-top: 80px;">
-	<div class="container">
-		<div class="row">
-
-			<div class="col-md-12 col-sm-12">
-				<p class="wow fadeInUp"  data-wow-delay="0s">Copyright © 2020 Moondane Inc.</p>
-				<ul class="social-icon wow fadeInUp"  data-wow-delay="0.1s">
-					<li><a href="#" class="fa fa-facebook"></a></li>
-					<li><a href="#" class="fa fa-twitter"></a></li>
-					<li><a href="#" class="fa fa-google-plus"></a></li>
-				</ul>
-			</div>
-			
-		</div>
-	</div>
-</footer>
-
-<!-- Javascript 
-================================================== -->
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/custom.js"></script>
+    </script>
+    
+    <script>
+function myFunction2() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
 </body>
+
 </html>

@@ -102,43 +102,43 @@ jQuery(document).ready(function($){
 
  /* Navigation Bar
   -----------------------------------------------*/
-$(document).ready(function() { 
-    "use strict";
-
-    // Navbar Sticky
-
-    (function() {
-        var docElem = document.documentElement,
-            didScroll = false,
-            stickynav = 50;
-            document.querySelector( '.nav-container' );
-        function init() {
-            window.addEventListener( 'scroll', function() {
-                if( !didScroll ) {
-                    didScroll = true;
-                    setTimeout( scrollPage, 50 );
-                }
-            }, false );
-        }
-        
-        function scrollPage() {
-            var sy = scrollY();
-            if ( sy >= stickynav ) {
-                $( '.nav-container' ).addClass('sticky');
-            }
-            else {
-                $( '.nav-container' ).removeClass('sticky');
-            }
-            didScroll = false;
-        }
-        
-        function scrollY() {
-            return window.pageYOffset || docElem.scrollTop;
-        }        
-        init();        
-    })();
-
-});
+//$(document).ready(function() { 
+//    "use strict";
+//
+//    // Navbar Sticky
+//
+//    (function() {
+//        var docElem = document.documentElement,
+//            didScroll = false,
+//            stickynav = 50;
+//            document.querySelector( '.nav-container' );
+//        function init() {
+//            window.addEventListener( 'scroll', function() {
+//                if( !didScroll ) {
+//                    didScroll = true;
+//                    setTimeout( scrollPage, 50 );
+//                }
+//            }, false );
+//        }
+//        
+//        function scrollPage() {
+//            var sy = scrollY();
+//            if ( sy >= stickynav ) {
+//                $( '.nav-container' ).addClass('sticky');
+//            }
+//            else {
+//                $( '.nav-container' ).removeClass('sticky');
+//            }
+//            didScroll = false;
+//        }
+//        
+//        function scrollY() {
+//            return window.pageYOffset || docElem.scrollTop;
+//        }        
+//        init();        
+//    })();
+//
+//});
 
 
 $(document).ready(function(){
