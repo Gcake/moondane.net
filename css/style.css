@@ -1584,12 +1584,19 @@ break {
     overflow: hidden;
 }
 
+.imgerr {
+    padding: 3rem;
+    border-left: 1px solid black;
+    box-sizing: border-box;
+}
+
 .imger div {
     clip-path: polygon(3rem 3rem, calc(100% - 3rem) 3rem, calc(100% - 3rem) calc(100% - 3rem), 3rem calc(100% - 3rem));
     height: 100%;
     overflow: hidden;
     max-height: 50rem;
 }
+
 .imger div {
     object-fit: cover;
     object-position: center;
