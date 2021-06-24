@@ -1086,6 +1086,8 @@ footer p {
     }
 }
 
+
+
 .mobile-nav {
     padding: 0;
     align-self: flex-end;
@@ -1214,6 +1216,21 @@ footer p {
     object-fit: contain;
     flex-wrap: nowrap;
     align-items: center;
+}
+
+@media (max-width: 1390px) {
+    .main-copyr-2 {
+        flex-direction: column;
+    }
+    .main-copyr-2 .col:first-child {
+        border-bottom: 1px solid black;
+    }
+    .col.imgerr {
+        border-left: none;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 3rem;
+    }
 }
 .main-copyr-2 .col {
     flex: 0 0 50%;
